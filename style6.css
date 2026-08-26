@@ -1,0 +1,74 @@
+*{
+    margin: 2;
+    padding: 2;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+    justify-content: center;
+    background-size: cover;
+    position: relative;
+    color: white;
+    font-family: "Poppins";
+}
+
+.escrita{
+    font-size: 32px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    padding: 20px;
+}
+
+.galeria {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 5px;
+}
+
+.imagens {
+    width: 40%;
+    object-fit: cover;
+}
+
+button{
+    font-family: "Poppins";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    opacity: 0.8;
+    transition: all 0.3s;
+    background-color: rgba(255, 255, 255, 0.301);
+    gap: 12px;
+    padding: 6px 20px 6px 20px;
+    position: fixed;
+    z-index: 99;
+}
+
+button:hover{
+    opacity: 1;
+}
+
+a{
+    color: white;
+    opacity: 0.7;
+    transition: all 0.3s;
+    text-decoration: none;
+}
+
+@media (max-width: 900px) {
+    .galeria {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 600px) {
+    .galeria {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
