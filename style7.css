@@ -70,12 +70,12 @@ a{
 
 @media (max-width: 900px) {
     .diferente{
-        width: 80%;
+        width: 100%;
     }
 }
 
 @media (max-width: 600px) {
    .diferente{
-        width: 80%;
+        width: 100%;
     }
 }
