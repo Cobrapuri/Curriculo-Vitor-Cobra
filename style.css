@@ -114,7 +114,7 @@ section{
       grid-template-columns: 1fr;
     }
     .secao1 {
-        background-image: url(images/fundo\ 6);
+        background-image: url(images/fundo6);
         background-size: cover;
         background-position: center;
     }
