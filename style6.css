@@ -65,10 +65,18 @@ a{
     .galeria {
         grid-template-columns: repeat(2, 1fr);
     }
+
+    .escrita{
+        font-size: 20px;
+    }
 }
 
 @media (max-width: 600px) {
     .galeria {
         grid-template-columns: repeat(1, 1fr);
+    }
+
+    .escrita{
+        font-size: 20px;
     }
 }

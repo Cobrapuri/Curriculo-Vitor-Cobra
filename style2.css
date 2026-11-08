@@ -117,14 +117,26 @@ h2{
 }
 
 @media (max-width: 900px) {
-    .card { width: 50%; }
+    .card { width: 50%; 
+         grid-template-columns: repeat(2, 1fr);
+         img{
+            height: 120px;
+            width: 120px;
+         }
+    }
     .secao2:before {
         background: none;
     }
 }
 
 @media (max-width: 600px) {
-    .card { width: 100%; }
+    .card { width: 50%; 
+         grid-template-columns: repeat(2, 1fr);
+         img{
+            height: 120px;
+            width: 120px;
+         }
+    }
     .secao2:before {
         background: none;
     }
