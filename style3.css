@@ -98,8 +98,8 @@ header{
     .imagens {
         grid-template-columns: repeat(2, 1fr);
         img{
-            height: 240px;
-            width: 240px;
+            height: 160px;
+            width: 160px;
         }
         gap: 12px;
         padding: 16px;
@@ -114,8 +114,8 @@ header{
     .imagens {
         grid-template-columns: repeat(2, 1fr);
         img{
-            height: 240px;
-            width: 240px;
+            height: 160px;
+            width: 160px;
         }
         gap: 12px;
         padding: 16px;
