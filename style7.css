@@ -13,29 +13,33 @@ body{
     font-family: "Poppins";
 }
 
+.galeria {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    padding: 10px;
+    max-width: 1500px;
+    margin: 0 auto;
+}
+
+.diferente{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
 .escrita{
+    width: 100%;
     font-size: 32px;
     font-family: "Poppins", sans-serif;
     font-weight: 100;
     padding: 20px;
 }
 
-.galeria {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 10px;
-}
-
-.diferente{
-    display: block;
-    margin: 0 auto;
-    max-width: 120%;
-    height: auto;
-}
-
 .imagens {
-    width: 40%;
+    width: calc(50% - 5px);
+    height: auto;
     object-fit: cover;
 }
 
