@@ -116,6 +116,7 @@ header{
             height: 240px;
             width: 240px;
         }
+        gap: 12px;
         padding: 16px;
     } 
 
