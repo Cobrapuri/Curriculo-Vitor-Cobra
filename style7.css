@@ -27,6 +27,13 @@ body{
     gap: 10px;
 }
 
+.diferente{
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+}
+
 .imagens {
     width: 30%;
     object-fit: cover;
@@ -62,13 +69,13 @@ a{
 }
 
 @media (max-width: 900px) {
-    .galeria {
-        grid-template-columns: repeat(2, 1fr);
+    .diferente{
+        width: 100%;
     }
 }
 
 @media (max-width: 600px) {
-    .galeria {
-        grid-template-columns: repeat(1, 1fr);
+   .diferente{
+        width: 100%;
     }
 }

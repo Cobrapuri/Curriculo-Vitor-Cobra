@@ -117,13 +117,15 @@ h2{
 }
 
 @media (max-width: 900px) {
-    .divCards {
-        grid-template-columns: repeat(1, 1fr);
+    .card { width: 50%; }
+    .secao2:before {
+        background: none;
     }
 }
 
 @media (max-width: 600px) {
-    .divCards {
-        grid-template-columns: repeat(1, 1fr);
+    .card { width: 100%; }
+    .secao2:before {
+        background: none;
     }
 }

@@ -16,11 +16,8 @@ body{
 .imagens{
     display: block;
     margin: 0 auto;
-}
-
-.imagens{
-    display: flex;
-    justify-content: center; 
+    max-width: 100%;
+    height: auto;
 }
 
 button{
@@ -53,13 +50,13 @@ a{
 }
 
 @media (max-width: 900px) {
-    .galeria {
-        grid-template-columns: repeat(2, 1fr);
+    .imagens{
+        width: 100%;
     }
 }
 
 @media (max-width: 600px) {
-    .galeria {
-        grid-template-columns: repeat(1, 1fr);
+   .imagens{
+        width: 100%;
     }
 }
