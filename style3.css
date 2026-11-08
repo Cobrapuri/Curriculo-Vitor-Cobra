@@ -70,27 +70,26 @@ header{
     align-items: center;
 }
 
-.imagens{
+.imagens {
     display: grid;
     grid-template-columns: repeat(2, 489px);
     justify-content: center;
-    flex-wrap: wrap;
-    
-    a{
-        width: 20%;
-        filter: saturate(0);
-        transition: all 0.3s;
-    }
-
-    a:hover{
-        filter: saturate(1);
-    }
 }
 
-.imagens{
+.imagens a {
+    filter: saturate(0);
+    transition: all 0.3s;
+}
+
+.imagens a:hover {
+    filter: saturate(1);
+}
+
+.imagens img {
+    display: block;
     width: 100%;
-    height: 489px;
-    aspect-ratio: 1 / 1; 
+    height: 100%;
+    aspect-ratio: 1 / 1;
     object-fit: cover;
 }
 
