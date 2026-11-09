@@ -127,6 +127,14 @@ h2{
     .secao2:before {
         background: none;
     }
+
+     #branco{
+         background-color: rgba(255, 255, 255, 0.1);
+    }
+
+    #preto{
+        background-color: black;
+    }
 }
 
 @media (max-width: 600px) {
@@ -137,7 +145,16 @@ h2{
             width: 120px;
          }
     }
+
     .secao2:before {
         background: none;
+    }
+
+    #branco{
+         background-color: rgba(255, 255, 255, 0.1);
+    }
+
+    #preto{
+        background-color: black;
     }
 }
